@@ -14,7 +14,7 @@ Partial Class AdmistrarEgresos
 
             strRespuesta = csusua.validar_session_usuarios(Session("id_usua"), Session.SessionID)
 
-            If strRespuesta <> "" Then
+            If strRespuesta1 <> "" Then
                 Response.Redirect("login.aspx")
             End If
 
