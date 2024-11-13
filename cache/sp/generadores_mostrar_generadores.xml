@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StoredProcedure>
+  <Parameter>
+    <POSITION>1</POSITION>
+    <MODE>IN</MODE>
+    <NAME>indica</NAME>
+    <TYPE>int</TYPE>
+    <LENGTH />
+  </Parameter>
+  <Parameter>
+    <POSITION>2</POSITION>
+    <MODE>IN</MODE>
+    <NAME>parame</NAME>
+    <TYPE>varchar</TYPE>
+    <LENGTH>255</LENGTH>
+  </Parameter>
+  <Parameter>
+    <POSITION>3</POSITION>
+    <MODE>IN</MODE>
+    <NAME>pagina</NAME>
+    <TYPE>int</TYPE>
+    <LENGTH />
+  </Parameter>
+</StoredProcedure>

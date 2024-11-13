@@ -1,0 +1,438 @@
+﻿body {
+    background: #FFFFFF;
+    font-size: 9pt;
+    font-family:Arial, Helvetica, Verdana, sans-serif, "Helvetica Neue", "Lucida Grande", "Segoe UI" ;
+    margin-top: 0px;
+    margin-left:1px;
+    padding: 0px;
+    color: #000000;
+}
+
+span {
+    font-size: 9pt;
+    font-family: Arial, Helvetica, Verdana ,sans-serif,"Helvetica Neue", "Lucida Grande", "Segoe UI" ;
+    font-weight:bold;
+    color: #000000;
+}
+
+label {
+    font-size: 9pt;
+    font-family: Arial, Helvetica, Verdana ,sans-serif,"Helvetica Neue", "Lucida Grande", "Segoe UI" ;
+    font-weight:bold;
+    color: #000000;
+}
+
+input {
+    font-size: 9pt;
+    font-family: Arial, Helvetica, Verdana ,sans-serif,"Helvetica Neue", "Lucida Grande", "Segoe UI" ;
+    font-weight:normal;
+    border:#999999 1px solid;
+}
+
+textarea {
+    font-size: 9pt;
+    font-family: Arial, Helvetica, Verdana ,sans-serif,"Helvetica Neue", "Lucida Grande", "Segoe UI" ;
+    font-weight:normal;
+    border:#999999 1px solid;
+}
+
+input[type="checkbox"]{
+    border: 0px;    
+    background-color:#FFFFFF;
+}
+
+input[type="radio"]{
+    border: 0px;    
+    background-color:#FFFFFF;
+}
+
+input[type="submit"] 
+{
+	font-size:11px;
+	background-color:#efefef;
+	border:1px solid #999999;
+	color:#000000;
+	font-weight:bold;
+	height:18;
+	cursor:pointer
+	/*
+    font-size: 11px;
+    font-family:Arial, Helvetica, Verdana , sans-serif,"Helvetica Neue", "Lucida Grande", "Segoe UI" ;
+    font-weight:normal;
+    color: #FFFFFF;
+    background: #2B3C59;
+	*/
+}
+
+input[type="submit"]:hover
+{
+	font-size:11px;
+	background-color:#efefef;
+	border:1px solid #999999;
+	color:#999999;
+	font-weight:bold;
+	height:18;
+	cursor:pointer
+}
+
+input[type="button"] 
+{
+	font-size:11px;
+	background-color:#efefef;
+	border:1px solid #999999;
+	color:#000000;
+	font-weight:bold;
+	height:18;
+	cursor:pointer
+	/*
+    font-size: 11px;
+    font-family:Arial, Helvetica, Verdana , sans-serif,"Helvetica Neue", "Lucida Grande", "Segoe UI" ;
+    font-weight:normal;
+    color: #FFFFFF;
+    background: #2B3C59;
+	*/
+}
+
+input[type="button"]:hover
+{
+	font-size:11px;
+	background-color:#efefef;
+	border:1px solid #999999;
+	color:#999999;
+	font-weight:bold;
+	height:18;
+	cursor:pointer
+}
+
+input[disabled="disabled"]{
+	font-size:11px;
+	background-color:#efefef;
+	border:1px solid #999999;
+	color:#999999;
+	font-weight:bold;
+	height:18;
+	cursor:pointer
+}
+
+TD.TDSelected:hover
+{
+    background-color:#c6d8e6;
+    cursor:pointer;
+}
+
+select {
+    font-size: 9pt;
+    font-family: Arial, Helvetica, Verdana ,sans-serif,"Helvetica Neue", "Lucida Grande", "Segoe UI" ;
+    font-weight:normal;
+    border:#CCCCCC 1px solid;
+ }
+
+table.StyleTable1
+{
+    border:1px solid black;
+    background-color:#F9F9F9;
+}
+
+tr.StyleTable1Light
+{
+	background-color:#FFFFFF;
+}
+
+table.StyleTable1 thead, th
+{
+   background-color:#251E4C;
+}
+
+td.StyleTable1Title
+{
+    color: #FFFFFF;
+	background-color:#607168;
+    font-weight:bold;
+}
+
+td.StyleTask
+{
+    background-color: #CCCCCC;
+    font-weight: bold;
+    color: #003366;
+}
+
+td.StyleWorkflowTask
+{
+    background-color: #003366;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.LabelWithBackgroundStyle1
+{
+    color: #FFFFFF;
+    font-size: 9pt;
+    font-family: sans-serif,"Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana ;
+    font-weight:bold;
+}
+
+.LabelMensajesWarning
+{
+    color: Red;
+    font-size: 13pt;
+    font-family: sans-serif,"Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana ;
+    font-weight:bold;
+}
+
+.ListBoxFOPR
+{
+	width:100%;	
+	height:450px;
+	border:1px solid black;
+}
+
+.imgModifyAssignments
+{
+	border: 0px;
+}
+
+.LabelData
+{
+    font-size: 9pt;
+    font-family: sans-serif,"Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana ;
+	font-weight:normal;
+}
+
+a, a:visited
+{
+    font-family: sans-serif,"Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana ;
+	color:#000080;
+	font-weight:bold;
+}
+
+a:hover
+{
+	font-family: sans-serif, "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana;
+	color: #0000FF;
+	font-weight:bold;
+}
+
+img.imgLink
+{
+	border: 0px;
+    cursor:pointer;
+}
+
+.boldText
+{
+    color: White;
+	background-color:#495D7F;
+    font-weight:bold;    
+}
+
+
+.treeAdminActiveVisible
+{
+    color:Navy;
+    background-color:White;
+}
+
+.treeAdminNoActiveVisible
+{
+    color:Red;
+    background-color:White;
+}
+
+.treeAdminNoActiveNoVisible
+{
+    color:Red;
+    background-color:Yellow;
+}
+
+.treeAdminActiveNoVisible
+{
+    color:Navy;
+    background-color:Yellow;
+}
+
+.visibleDiv
+{
+	position:fixed;
+}
+
+#footer
+{
+	background: #FFFFFF;
+	border-top: 1px solid #EFEFEF;
+    font-family: "Verdana","Arial","Helvetica","sans-serif";
+	clear: both;
+	float: left;
+	font-size: 9pt;
+	margin:  20px 20px 0 0;
+	padding: 0 0 0 0;
+	text-align: right;
+	width: 100%;
+}
+#footer p
+{
+	padding:  2px 10px;
+	color: #CCCCCC;
+}
+#footer span
+{
+	float: left;
+	color: #CCCCCC;
+}
+
+#login
+{
+	background-image:url("../images/client_splash.png");
+	background-repeat:no-repeat;width:480px;
+    font-family: "Verdana","Arial","Helvetica","sans-serif";
+	font-size: 12px;	
+	padding-top:108px;
+	padding-bottom:10px;
+	padding-left:10px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	border: 5px solid #CDCDCD;
+}
+
+#login fieldset
+{
+	border: none;
+}
+
+#login h1
+{
+	padding:0px;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:175px;
+	margin-right:20px;
+	margin-top:0px;
+	margin-bottom:90px
+}
+
+#login h2,#login p
+{
+	font-size:12px;
+	font-weight:normal;
+	margin-top:10px;
+	margin-right:0px;
+	margin-bottom:10px;
+	margin-top:0px;
+	padding:0px
+}
+
+#login span#error
+{
+	color:#ff0000;
+	font-weight:bold;
+	background-color:#ffffff;
+	font-family:verdana,arial,sans-serif;
+	padding:0px
+}
+
+#login input#LoginTextBox,#login input#PasswordTextBox
+{
+	width:150px;
+	height:14px;
+	font-size:11px;
+	border:1px solid #999999;
+	background-repeat:no-repeat;
+	background-position:5px 50%;
+	padding-left:22px
+}
+
+#login input#LoginTextBox
+{
+	background-image:url("../images/username_bg.png");
+	width: 200px;
+	height: 17px
+}
+	
+#login input#PasswordTextBox
+{
+	background-image:url("../images/password_bg.png");
+	width: 200px;
+	height: 17px
+}
+	
+#login select#language_ident
+{
+	font-size:11px
+}
+
+#login select#hub
+{
+	font-size:11px
+}
+
+#login input#OkButton
+{
+	font-size:11px;
+	background-color:#efefef;
+	border:1px solid #999999;
+	color:#000000;
+	font-weight:bold;
+	height:18;
+	cursor:pointer
+}
+	
+#login input#OkButton:hover
+{
+	font-size:11px;
+	background-color:#efefef;
+	border:1px solid #999999;
+	color:#999999;
+	font-weight:bold;
+	height:18;
+	cursor:pointer
+}
+form fieldset.action_area
+{
+	border: none;
+	margin-bottom: 0px;
+	text-align: right;
+	padding-right:15px
+}
+
+/*
+#login-page-div
+{
+    background: url(../images/page_bg_img.png) no-repeat 50% 0px
+}
+
+#login-page-body
+{
+    background: #eaeaea repeat-x 0px 0px
+}
+*/
+#error-page-div
+{
+    background: url(../images/page_bg_img.png) no-repeat 50% 0px
+}
+
+#error-page-body
+{
+    background: #eaeaea repeat-x 0px 0px
+}
+
+p.saltodepagina 
+{
+	page-break-after: always;
+}
+
+a.ui-corner-all, a.ui-corner-top, a.ui-corner-left, a.ui-corner-tl { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; -khtml-border-top-left-radius: 4px; border-top-left-radius: 4px; font-size:11px; font-weight:normal}
+a.ui-corner-all, a.ui-corner-top, a.ui-corner-right, a.ui-corner-tr { -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; -khtml-border-top-right-radius: 4px; border-top-right-radius: 4px; font-size:11px; font-weight:normal}
+a.ui-corner-all, a.ui-corner-bottom, a.ui-corner-left, a.ui-corner-bl { -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; -khtml-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; font-size:11px; font-weight:normal}
+a.ui-corner-all, a.ui-corner-bottom, a.ui-corner-right, a.ui-corner-br { -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; -khtml-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; font-size:11px; font-weight:normal}
+
+a:hover.ui-corner-all, a:hover.ui-corner-top, a:hover.ui-corner-left, a:hover.ui-corner-tl { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; -khtml-border-top-left-radius: 4px; border-top-left-radius: 4px; font-size:11px; font-weight:normal}
+a:hover.ui-corner-all, a:hover.ui-corner-top, a:hover.ui-corner-right, a:hover.ui-corner-tr { -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; -khtml-border-top-right-radius: 4px; border-top-right-radius: 4px; font-size:11px; font-weight:normal}
+a:hover.ui-corner-all, a:hover.ui-corner-bottom, a:hover.ui-corner-left, a:hover.ui-corner-bl { -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; -khtml-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; font-size:11px; font-weight:normal}
+a:hover.ui-corner-all, a:hover.ui-corner-bottom, a:hover.ui-corner-right, a:hover.ui-corner-br { -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; -khtml-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; font-size:11px; font-weight:normal}
+
+.fieldRequired
+{
+    COLOR: red
+}
